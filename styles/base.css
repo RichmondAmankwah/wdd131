@@ -3,13 +3,9 @@ body{
     margin: 0;
 }
 
-header main {
-    margin: 0;
-    font-weight: normal;
 
-}
 
-#course-title{
+header #course-title{
     text-align: center;
     background-color: black;
     padding: 20px;
@@ -40,7 +36,7 @@ footer{
     color: white;
 }
 
-h1{
+main h1{
     text-align: center;
 }
 
