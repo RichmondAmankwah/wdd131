@@ -3,6 +3,12 @@ body{
     margin: 0;
 }
 
+header main {
+    margin: 0;
+    font-weight: normal;
+
+}
+
 #course-title{
     text-align: center;
     background-color: black;
@@ -14,7 +20,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: grey;
+    background-color: rgb(69, 68, 68);
     padding: 15px;
 }
 
@@ -27,7 +33,7 @@ nav a{
 
 footer{
     text-align: center;
-    background-color: grey;
+    background-color: rgb(69, 68, 68);
     padding: 20px;
     display: flex;
     flex-direction: column;
