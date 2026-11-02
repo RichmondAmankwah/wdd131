@@ -58,6 +58,8 @@ h3 {
 }
 
 .mop {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     max-width: 90%;
     margin-bottom: 15px;
     border: 1px solid black;
@@ -81,11 +83,14 @@ img {
 #slower{
     text-align: left;
     margin-right: 20px;
+    grid-row: 2/3;
 }
 
 .card {
     display: flow-root;
+
 }
+
 
 #makt img {
     float: right;
