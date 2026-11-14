@@ -54,7 +54,7 @@ main div{
 }
 
 footer{
-    background-color: rgb(124, 122, 122);
+    background-color: rgb(29, 26, 26);
     color: white;
     border-radius: 0.6rem;
     padding: 0.8rem;
@@ -64,8 +64,7 @@ footer{
 
 .frt a:hover,.frt a:focus-visible{
     background-color: white;
-    font-style: bold;
-    border: auto solid white;
+    border:  solid white;
     border-radius: 0.3rem;
     color: black;
 }
@@ -80,7 +79,7 @@ main h1 {
 }
 
 figure:hover,figure:focus-visible{
-    background-color: rgb(124, 122, 122);
+    background-color: rgb(32, 28, 28);
     color: white;
 }
 
