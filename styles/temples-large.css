@@ -8,7 +8,7 @@ header,main,footer{
     text-align: center;
 }
 
-.frt li {
+nav li {
     text-decoration: none;
     display: flex;
     flex-flow: row;
@@ -36,7 +36,7 @@ header p{
 
 nav {
     display:block;
-    background-color: rgb(124, 122, 122);
+    background-color: rgb(40, 37, 37);
     padding: 0.4rem;
     border-radius: 0.6rem;
     list-style: none;
