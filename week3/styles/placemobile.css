@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "jost", sans-serif;
+    color: #222;
+    background-color: #fff;
+}
+h2{
+    background-color: rgb(41, 115, 179);;
+}
+
+header {
+    padding: 20px 10px 14px;
+    text-align: center;
+}
+
+h1 {
+    width: 230px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #777;
+    font-size: 24px;
+    background-color: rgb(229, 95, 95);;
+}
+
+.salt {
+    border-top: 1px solid #777;
+}
+
+.okli,
+.okli img {
+    display: block;
+    width: 100%;
+}
+
+.okli img {
+    height: 330px;
+    object-fit: cover;
+}
+
+.dont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+}
+
+.monkey,
+.weat {
+    width: 280px;
+    padding: 12px 14px 10px;
+    border: 2px solid #777;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.monkey h2,
+.weat h2 {
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cloud {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;     
+    margin-left: 8px;
+    margin-bottom: 5px;
+    background-color: rgb(41, 115, 179);
+}
+
+.soo,
+.sksks {
+    margin: 0 auto;
+    width: 165px;
+}
+
+.soo p,
+.sksks p {
+    margin: 3px 0;
+    font-size: 14px;
+}
+
+footer {
+    padding: 14px 8px;
+    border-top: 1px solid #777;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(229, 95, 95);;
+}
+
+footer p {
+    margin: 3px 0;
+    font-weight: bold;
+}
+
