@@ -5,7 +5,7 @@
 
     header h1 {
         width: 430px;
-        background-color: rgb(229, 95, 95);
+        background-color: var(--so-color);
     }
 
     main {
@@ -57,12 +57,12 @@
 
     footer {
         padding: 18px 8px;
-        background-color: rgb(229, 95, 95);
+        background-color: var(--so-color);
         margin-top: 1rem;
     }
 
     h2 {
-        background-color: rgb(41, 115, 179);
+        background-color: var(--me-color);
     }
 
 }

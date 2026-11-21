@@ -1,3 +1,9 @@
+:root {
+    --me-color: rgb(41, 115, 179);
+    --so-color: rgb(229, 95, 95);
+    --to-color: #222;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -5,11 +11,11 @@
 body {
     margin: 0;
     font-family: "jost", sans-serif;
-    color: #222;
+    color: var(--to-color);
     background-color: #fff;
 }
 h2{
-    background-color: rgb(41, 115, 179);;
+    background-color: var(--me-color);
 }
 
 header {
@@ -23,7 +29,7 @@ h1 {
     padding: 10px;
     border: 2px solid #777;
     font-size: 24px;
-    background-color: rgb(229, 95, 95);;
+    background-color: var(--so-color);
 }
 
 .salt {
@@ -66,12 +72,17 @@ h1 {
 }
 
 .cloud {
+    display: inline-block;
+    position: relative;
+}
+
+.cloud img {
     width: 24px;
     height: 24px;
-    vertical-align: middle;     
+    vertical-align: middle;
     margin-left: 8px;
     margin-bottom: 5px;
-    background-color: rgb(41, 115, 179);
+    background-color: var(--me-color);
 }
 
 .soo,
@@ -91,11 +102,33 @@ footer {
     border-top: 1px solid #777;
     text-align: center;
     font-size: 12px;
-    background-color: rgb(229, 95, 95);;
+    background-color: var(--so-color);
 }
 
 footer p {
     margin: 3px 0;
     font-weight: bold;
+}
+
+.salt:hover {
+    cursor: pointer;
+}
+
+.monkey,
+.weat {
+    transition: box-shadow 0.19s ease, transform 0.18s ease;
+}
+
+.monkey:hover,
+.weat:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cloud::after {
+    content: "cloud";
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    font-size: 6px;
 }
 
