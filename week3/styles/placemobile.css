@@ -62,6 +62,7 @@ h1 {
     border: 2px solid #777;
     border-radius: 2px;
     background-color: #fff;
+    transition: box-shadow 0.19s ease, transform 0.18s ease;
 }
 
 .monkey h2,
@@ -114,10 +115,6 @@ footer p {
     cursor: pointer;
 }
 
-.monkey,
-.weat {
-    transition: box-shadow 0.19s ease, transform 0.18s ease;
-}
 
 .monkey:hover,
 .weat:hover {
