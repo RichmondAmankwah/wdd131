@@ -1,0 +1,29 @@
+*{
+    margin: 2px;
+}
+
+div{
+    display: block;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 2px;
+}
+
+footer{
+    background-color: lightgreen;
+    text-align: center;
+    padding: 4px;
+}
+
+img{
+    animation: fade 17s;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}/*describes what and element should look like at different points in time*/
